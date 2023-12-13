@@ -1,0 +1,6 @@
+dependencies:
+- name: onecx-workspace-svc
+  repository: oci://ghcr.io/onecx/charts
+  version: 0.0.0-rc.4
+digest: sha256:8cd0e32b359ef76c220a1c2d9d9ee1461d218bd5800acf561997eba5671210ae
+generated: "2023-12-13T19:53:02.376282565+01:00"
