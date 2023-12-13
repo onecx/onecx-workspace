@@ -1,16 +1,10 @@
-name: onecx-workspace
-home: ""
-sources: []
-version: 0.0.0
-description: ""
-keywords: []
-maintainers: []
-icon: ""
 apiversion: v2
-condition: ""
-tags: ""
+name: onecx-workspace
+version: 0.0.0
 appversion: 0.0.0
-deprecated: false
-annotations: {}
-kubeversion: ""
-type: ""
+dependencies:
+- name: onecx-workspace-svc
+  version: "*-0"
+  repository: oci://ghcr.io/onecx/charts
+  condition: "deployment.svc"  
+  alias: "svc"
