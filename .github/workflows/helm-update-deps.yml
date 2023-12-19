@@ -6,6 +6,6 @@ on:
     types: [helm-update-deps]
 
 jobs:
-  release:
-    uses: onecx/ci-common/.github/workflows/helm-update-deps.yml@v1
+  update:
+    uses: onecx/ci-product/.github/workflows/helm-update-deps.yml@v1
     secrets: inherit
