@@ -3,6 +3,10 @@ name: onecx-workspace
 version: 0.0.0
 appversion: 0.0.0
 dependencies:
+- name: helm-product
+  version: ^0
+  repository: oci://ghcr.io/onecx/charts
+  alias: product
 - name: onecx-workspace-svc
   version: "*-0"
   repository: oci://ghcr.io/onecx/charts

@@ -1,2 +1,11 @@
 deployment:
   svc: true
+
+product:
+  info:
+    data:
+      description: "Onecx Workspace"
+      imageUrl: ""
+      iconName: "gear"
+      dispalyName: "Workspace"
+      basePath: "/workspace"

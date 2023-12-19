@@ -1,6 +1,9 @@
 dependencies:
+- name: helm-product
+  repository: oci://ghcr.io/onecx/charts
+  version: 0.0.0
 - name: onecx-workspace-svc
   repository: oci://ghcr.io/onecx/charts
   version: 0.0.0-rc.6
-digest: sha256:9813915037ed0e1eb5249a1b4a531fa8ee7a105c5ad88e9e10f5f671a38d2a24
-generated: "2023-12-18T14:23:42.830555959Z"
+digest: sha256:2bb186f8855a4c8ee7977f5f8b8d71a0e029de1ee908c8787db3f5307d90f88e
+generated: "2023-12-19T10:03:18.146135706+01:00"
