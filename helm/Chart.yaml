@@ -12,3 +12,8 @@ dependencies:
   repository: oci://ghcr.io/onecx/charts
   condition: "deployment.svc"  
   alias: "svc"
+- name: onecx-workspace-bff
+  version: "*-0"
+  repository: oci://ghcr.io/onecx/charts
+  condition: "deployment.bff"  
+  alias: "bff"  
