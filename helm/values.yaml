@@ -5,8 +5,8 @@ deployment:
 product:
   info:
     data:
-      description: "Onecx Workspace"
+      description: "OneCX Workspace"
       imageUrl: ""
       iconName: "gear"
-      dispalyName: "Workspace"
+      displayName: "OneCX Workspace"
       basePath: "/workspace"
