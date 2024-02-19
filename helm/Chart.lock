@@ -7,6 +7,6 @@ dependencies:
   version: 0.0.0-rc.20
 - name: onecx-workspace-bff
   repository: oci://ghcr.io/onecx/charts
-  version: 0.0.0-rc.16
-digest: sha256:9c4e10749e4d149250496c61f3d03651df8c9e788312ef972ecdf97c0650db52
-generated: "2024-02-15T12:16:16.662237638Z"
+  version: 0.0.0-rc.17
+digest: sha256:eed5838ad073f043acbc0b56b73e77988954b0b27b13eb9275abec54b87656e2
+generated: "2024-02-19T17:58:29.503735336Z"
