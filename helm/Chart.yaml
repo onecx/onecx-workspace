@@ -19,8 +19,8 @@ dependencies:
   alias: "bff"
 # FIX UI BEFORE YOU DEPLOY IT TO DEV
 # IT BLOCK ALL OTHER MICROSERVICES
-# - name: onecx-workspace-ui
-#   version: "*-0"
-#   repository: oci://ghcr.io/onecx/charts
-#   condition: "deployment.ui"
-#   alias: "ui"
+- name: onecx-workspace-ui
+  version: "*-0"
+  repository: oci://ghcr.io/onecx/charts
+  condition: "deployment.ui"
+  alias: "ui"
