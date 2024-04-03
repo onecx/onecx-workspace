@@ -8,6 +8,6 @@ product:
     data:
       description: "OneCX Workspace"
       imageUrl: ""
-      iconName: "gear"
+      iconName: "pi-ellipsis-h"
       displayName: "OneCX Workspace"
       basePath: "/workspace"
