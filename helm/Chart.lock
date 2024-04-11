@@ -10,6 +10,6 @@ dependencies:
   version: 0.0.0-rc.45
 - name: onecx-workspace-ui
   repository: oci://ghcr.io/onecx/charts
-  version: 0.0.0-rc.28
-digest: sha256:2985cdbf140a45beca40e94d62b56b9891c7f9313bb50843a5dd0336b335323f
-generated: "2024-04-11T08:48:57.362461362Z"
+  version: 0.0.0-rc.29
+digest: sha256:ddc42b08ee6b770a4fd047043475ad359f908a216700ebe875cf210a73da2992
+generated: "2024-04-11T09:04:48.035915832Z"
