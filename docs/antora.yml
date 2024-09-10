@@ -1,8 +1,9 @@
 name: onecx-workspace
 title: Workspace Management
 version: latest
-start_page: onecx-workspace:index.adoc
+start_page: general:index.adoc
 nav:
- - modules/ui/nav.adoc
- - modules/bff/nav.adoc
- - modules/svc/nav.adoc
+  - modules/general/nav.adoc
+  - modules/onecx-workspace-ui/nav.adoc
+  - modules/onecx-workspace-bff/nav.adoc
+  - modules/onecx-workspace-ui/nav.adoc
