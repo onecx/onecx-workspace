@@ -1,5 +1,0 @@
-= Workspace Management
-
-== Licence
-This software is licensed under the Apache License, Version 2.0.
-You may obtain a copy of the license in the corresponding LICENSE file or visit the link:https://www.apache.org/licenses/LICENSE-2.0[Apache website] for more information.
