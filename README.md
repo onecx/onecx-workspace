@@ -1,2 +1,2 @@
 # onecx-workspace
-OneCx workspace
+OneCX Workspace
