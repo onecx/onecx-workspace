@@ -4,14 +4,9 @@ on:
     branches: [ main ]
     paths:
       - 'userdocs/**'
-
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Trigger website update
-        uses: peter-evans/repository-dispatch@v1
-        with:
-          token: ${{ secrets.CI_PAT }}
-          repository: onecx/userdocs
-          event-type: dispatch-build-website
+  release:
+    uses: onecx/ci-common/.github/workflows/documentation.yml@v1
+    secrets: inherit
+    with:
+      docs: userdocs
