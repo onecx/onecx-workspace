@@ -1,5 +1,54 @@
 = OneCX Workspace Management
 
+.Workspace UI
+image::overview.png[]
+
+== Overview
+The OneCX Workspace Management Solution is designed to create and manage workspaces tailored to the specific needs of different personas or user roles within an organization. This ensures that users have access to the relevant tools and services they need to perform their tasks efficiently and securely. Key features include:
+
+*Persona-Based Workspace Creation*:
+
+* *Tailored Workspaces*: Facilitates the creation of workspaces that are customized for different user roles or personas, ensuring that each user has access to the tools and services most relevant to their responsibilities.
+* *Role-Specific Tools*: Provides a curated set of applications and resources that align with the specific needs of each user role.
+Menu Configuration*:
+* *Customizable Menu Items*: Allows administrators to configure menu items to ensure that users can easily navigate to the tools and services they need.
+* *Dynamic Menus*: Menus can be dynamically updated to reflect changes in user roles or organizational needs.
+Enhanced Security*:
+* *Access Control*: Implements robust access control mechanisms to ensure that only authorized users can access specific tools and services.
+* *Secure Workspaces*: Configures workspace features to enhance security, protecting sensitive information and ensuring compliance with organizational policies.
+Usability Enhancements*:
+* *User-Friendly Interface*: Designed with usability in mind, providing an intuitive interface that makes it easy for users to find and use the tools they need.
+* *Personalized Experience*: Offers a personalized user experience by tailoring workspace features to individual preferences and needs.
+
+== Benefits
+* Increased Productivity: By providing users with the tools and services they need, the solution helps to increase productivity and efficiency.
+* Improved User Satisfaction: Tailored workspaces and a user-friendly interface enhance the overall user experience, leading to higher satisfaction.
+* Enhanced Security: Robust security features ensure that sensitive information is protected and that users only have access to the tools and services they are authorized to use.
+* Flexibility: The ability to customize workspaces and menus allows the solution to adapt to changing organizational needs and user roles.
+
+== Dialogues
+=== Workspace General Data
+.Workspace general data
+image::general_data.png[]
+=== Workspace Role Management
+.Workspace role management
+image::role_management.png[]
+=== Workspace Application Registration
+.Workspace application registration
+image::application_registration.png[]
+=== Workspace Menu Management
+.Workspace menu example 1
+image::menu_management_1.png[]
+.Workspace menu example 2
+image::menu_management_2.png[]
+.Workspace menu example 3
+image::menu_management_3.png[]
+=== Workspace Slots
+.Workspace slots registration
+image::slots_1.png[]
+.Workspace slots assignment
+image::slots_2.png[]
+
 == Licence
 This software is licensed under the Apache License, Version 2.0.
 You may obtain a copy of the license in the corresponding LICENSE file or visit the link:https://www.apache.org/licenses/LICENSE-2.0[Apache website] for more information.
@@ -8,16 +57,10 @@ You may obtain a copy of the license in the corresponding LICENSE file or visit 
 We welcome contributions from the community.
 If you would like to contribute to the development of OneCX Workspace Management Software, please follow our contribution guidelines (tbd).
 
-== What is Workspace Management?
-Workspace Management refers to creating and editing Workspaces usable in context of OneCX applications.
-
-== Key Features
-* Workspace Creation and Editing: create and edit Workspace items usable in context of OneCX applications.
-
-== Issue tracking
+== Issue Tracking
 All OneCX Workspace issues are tracked and maintained at the link:https://xyz.com[issue tracking tool].
 
-== Overview
+== Structure Overview
 OneCX Workspace Software is a comprehensive solution for managing Workspaces in a user-friendly and efficient manner.
 It is a solution that consists of three main components: a backend service, a user interface and a backend-for-frontend (BFF) layer.
 
