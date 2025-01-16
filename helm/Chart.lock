@@ -7,9 +7,9 @@ dependencies:
   version: 1.4.0-rc.3
 - name: onecx-workspace-bff
   repository: oci://ghcr.io/onecx/charts
-  version: 1.4.0-rc.2
+  version: 1.4.0
 - name: onecx-workspace-ui
   repository: oci://ghcr.io/onecx/charts
-  version: 1.5.0-rc.16
-digest: sha256:ac7b6c49d125ab289a8e6e665eb0a180cc806949a832998326a2701dfc71ae24
-generated: "2025-01-15T09:50:30.065080598Z"
+  version: 1.5.0
+digest: sha256:9a891a4422c32c49d05dc04f5c43685d90c5b142d12417d2c335ebaae5e155af
+generated: "2025-01-16T10:19:03.667258833Z"
