@@ -1,6 +1,7 @@
 deployment:
   svc: true
   bff: true
+  api: true
   ui: true
   
 product:
