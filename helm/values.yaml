@@ -3,7 +3,8 @@ deployment:
   bff: true
   api: true
   ui: true
-  
+  legacy: true
+
 product:
   info:
     data:
