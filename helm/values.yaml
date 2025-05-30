@@ -13,5 +13,5 @@ product:
       iconName: pi-ellipsis-h
       displayName: "OneCX Workspace"
       basePath: /workspace
-      provider: OneCX Team
+      provider: "OneCX Team"
       classifications: Administration
