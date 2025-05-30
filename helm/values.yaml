@@ -14,4 +14,4 @@ product:
       displayName: "OneCX Workspace"
       basePath: /workspace
       provider: "OneCX Team"
-      classifications: Administration
+      classifications: [ "Administration" ]
