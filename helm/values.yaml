@@ -10,6 +10,8 @@ product:
     data:
       description: "OneCX Workspace"
       imageUrl: ""
-      iconName: "pi-ellipsis-h"
+      iconName: pi-ellipsis-h
       displayName: "OneCX Workspace"
-      basePath: "/workspace"
+      basePath: /workspace
+      provider: OneCX Team
+      classifications: Administration
