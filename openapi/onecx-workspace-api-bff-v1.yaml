@@ -2,12 +2,13 @@
 openapi: 3.0.3
 info:
   title: onecx-workspace-api-bff
-  description: OneCX Workspace API BFF
+  description: This API provides endpoints to retrieve workspace menus from external applications.
   version: "1.0"
 servers:
   - url: http://onecx-workspace-api-bff:8080/
 tags:
   - name: menuItem
+    description: Retrieve Menu Items
 paths:
   /menu/menuItems:
     post:
@@ -17,7 +18,7 @@ paths:
             - ext-api-req
       tags:
         - menuItem
-      description: get User specific menu items
+      description: Get user specific menu items of the requesting user
       operationId: getMenuItems
       requestBody:
         required: true
@@ -27,7 +28,7 @@ paths:
               $ref: '#/components/schemas/GetMenuItemsRequest'
       responses:
         200:
-          description: Ok
+          description: Menu items retrieved successfully
           content:
             application/json:
               schema:
