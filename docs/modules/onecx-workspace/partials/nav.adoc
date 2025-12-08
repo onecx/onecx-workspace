@@ -1,0 +1,7 @@
+* xref:documentation:onecx-workspace:index.adoc[Workspace]
++
+include::documentation:onecx-workspace-ui:partial$nav.adoc[]
++
+include::documentation:onecx-workspace-bff:partial$nav.adoc[]
++
+include::documentation:onecx-workspace-svc:partial$nav.adoc[]
