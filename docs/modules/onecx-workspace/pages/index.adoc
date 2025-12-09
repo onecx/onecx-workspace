@@ -1,4 +1,7 @@
 = OneCX Workspace Management
+:idprefix:
+:idseparator: -
+:imagesdir: ../images
 
 .Workspace UI
 image::overview.png[]
