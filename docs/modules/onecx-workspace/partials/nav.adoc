@@ -5,3 +5,7 @@ include::documentation:onecx-workspace-ui:partial$nav.adoc[]
 include::documentation:onecx-workspace-bff:partial$nav.adoc[]
 +
 include::documentation:onecx-workspace-svc:partial$nav.adoc[]
++
+include::documentation:onecx-workspace-api-bff:partial$nav.adoc[]
++
+include::documentation:onecx-workspace-api-legacy:partial$nav.adoc[]
