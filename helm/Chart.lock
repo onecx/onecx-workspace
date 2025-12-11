@@ -13,9 +13,9 @@ dependencies:
   version: 1.7.0-rc.4
 - name: onecx-workspace-api-legacy
   repository: oci://ghcr.io/onecx/charts
-  version: 1.8.0-rc.2
+  version: 1.8.0-rc.3
 - name: onecx-workspace-ui
   repository: oci://ghcr.io/onecx/charts
   version: 1.15.0-rc.12
-digest: sha256:59852c2a6316f2bd233e891b300f5eb801e11bde83d5d724d104a7a4b11f62bf
-generated: "2025-12-10T18:05:23.795816182Z"
+digest: sha256:dee3f11dd2d7e39c3a0e7373ee9e87998b29922a584c033d130bcd420baa13ac
+generated: "2025-12-11T13:59:11.186987577Z"
